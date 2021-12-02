@@ -25,7 +25,7 @@ fn init --runtime python oke-func
 cd oke-func
 ```
 3. Replace file func.py and add Dockerfile and requirements.txt
-4. Deploy the function using command fn -v deploy --app <app-name>
+4. Deploy the function using command ```fn -v deploy --app <app-name>```
 
 ## Invoke Function
 
