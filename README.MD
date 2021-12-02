@@ -13,7 +13,9 @@ Setup dynamic group to allow resource_principal authorization
    ```
 2. Create policy for Dynamic Group (Identity -> Policies) 
    Select compartment where function resides
+   ```
    Allow dynamic-group <function-dynamic-group> to use cluster-family in compartment <compartment-namef for OKE cluster>
+   ```
    
 
 ## Deployment
