@@ -33,7 +33,7 @@ cd oke-func
 echo -n '{"secret_name":"docker-auth","namespace":"default","user":"registry-user","passwd":"registry-pass","registry":"registry URL","cluster_id":"cluster-ocid","region":"OCI region"}' | fn invoke <app-name> oke-func
 ```
 
-JSON required at function invokation
+JSON required at function invocation
 
 ```
 {
